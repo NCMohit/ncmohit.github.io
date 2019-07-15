@@ -36,3 +36,22 @@
     height: 100%;
     
 }
+@media screen and (min-width: 992px) {
+    #foldericon {
+        margin-left: 10%;
+        margin-top: 450%;
+    }
+    #toggleicon {
+        margin-left: 10%;
+        margin-top: 50%
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #foldericon {
+        margin-top: 50%;
+    }
+    #toggleicon {
+        margin-top: 50%
+    }
+}
