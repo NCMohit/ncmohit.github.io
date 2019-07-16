@@ -1,3 +1,39 @@
+.btn-default {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  background: #7d7fff;
+  color: #ffffff;
+  transform: rotate(45deg);
+}
+.btn-default:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: '';
+  background: #5D5FDB;
+  transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.btn-default:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.btn-default:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.btn-default span {
+  position: relative;
+  z-index: 10;
+  transform: rotate(-45deg);
+}
+
+
 #plus{
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -15,8 +51,27 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);	
 }
+.back {
+    width: 365px;
+    height: 365px;
+}
 #overlay:hover {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(1, #000000),
+        color-stop(0.1, rgba(0,0,0,0))
+    );
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), #000000);
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.2), #000000);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), #000000);
+    background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.2), #000000);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #000000);
+    position:relative;
+    width:100%;
+    height: 100%; 
 }
 #overlay {
     background-image: -webkit-gradient(
@@ -26,35 +81,65 @@
         color-stop(1, #000000),
         color-stop(0.1, rgba(0,0,0,0))
     );
-    background-image: -o-linear-gradient(top, #000000 10%, rgba(0,0,0,0) 100%);
-    background-image: -moz-linear-gradient(top, #000000 10%, rgba(0,0,0,0) 100%);
-    background-image: -webkit-linear-gradient(top, #000000 10%, rgba(0,0,0,0) 100%);
-    background-image: -ms-linear-gradient(top, #000000 10%, rgba(0,0,0,0) 100%);
-    background-image: linear-gradient(to top, #000000 10%, rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     position:relative;
     width:100%;
-    height: 100%;
-    
+    height: 100%;    
+}
+.overlay .editicon{
+    visibility: hidden;
+}
+.overlay .shareicon{
+    visibility: hidden;
+}
+.overlay .linkicon{
+    visibility: hidden;
+}
+.overlay:hover .editicon{
+    visibility: visible;
+}
+.overlay:hover .shareicon{
+    visibility: visible;
+}
+.overlay:hover .linkicon{
+    visibility: visible;
 }
 @media screen and (min-width: 992px) {
     #foldericon {
         margin-left: 10%;
-        margin-top: 450%;
+        margin-top: 80%;
+        width: 37px;
+        height: 35px;   
     }
     #files {
     	margin-left: 10%;
     }
     #toggleicon {
         margin-left: 10%;
-        margin-top: 50%
+        margin-top: 7%;
+        width: 41px;
+        height: 26px;
+    }
+    #profileicon {
+        margin-left: 10%;
+        margin-top: 700%;
+        width: 50px;
+        height: 50px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    #foldericon {
-        margin-top: 50%;
+    /*#foldericon {
+        margin-top: 40%;
+    }*/
+    #files {
+        display: none;
     }
-    #toggleicon {
-        margin-top: 50%
-    }
+    /*#toggleicon {
+        margin-top: 40%
+    }*/
 }
