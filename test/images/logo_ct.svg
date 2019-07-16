@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="81" height="54" viewBox="0 0 81 54">
-  <g id="Group_5" data-name="Group 5" transform="translate(-14 -29)">
-    <text id="Content" transform="translate(14 65)" fill="#020000" font-size="32" font-family="Pacifico-Regular, Pacifico"><tspan x="0" y="0">Content</tspan></text>
-    <text id="T_A_L_K_S" data-name="T A L K S" transform="translate(51.69 79.416)" fill="#020000" font-size="10" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">T A L K S</tspan></text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="52.287" viewBox="0 0 88 52.287">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#020000}.cls-1{font-size:26px;font-family:Pacifico-Regular,Pacifico}.cls-2{font-size:12px;font-family:SegoeUI,Segoe UI}
+        </style>
+    </defs>
+    <g id="Content_Talks_Logo" data-name="Content Talks Logo" transform="translate(-20 -36.021)">
+        <text id="Content" class="cls-1" transform="translate(20 70.021)">
+            <tspan x="0" y="0">Content</tspan>
+        </text>
+        <text id="T_A_L_K_S" class="cls-2" data-name="T A L K S" transform="translate(55.61 85.308)">
+            <tspan x="0" y="0">T A L K S</tspan>
+        </text>
+    </g>
 </svg>
