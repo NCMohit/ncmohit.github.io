@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#2d2d2d}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_94" d="M0 0h24v24H0z" class="cls-1" data-name="Rectangle 94" transform="translate(505 220)"/>
+        </clipPath>
+    </defs>
+    <g id="Share_Icon" class="cls-2" data-name="Share Icon" transform="translate(-505 -220)">
+        <g id="add-29" transform="translate(507.32 222.11)">
+            <ellipse id="Ellipse_6" cx="4.682" cy="4.682" class="cls-3" data-name="Ellipse 6" rx="4.682" ry="4.682" transform="translate(4.048 -.199)"/>
+            <path id="Path_41" d="M13.066 10.169a8 8 0 0 0-3.2-.669h-1.34A8.026 8.026 0 0 0 .5 17.526h12.039" class="cls-3" data-name="Path 41" transform="translate(-.5 2.644)"/>
+            <path id="Line_5" d="M0 0v7.156" class="cls-3" data-name="Line 5" transform="translate(16.1 12.579)"/>
+            <path id="Line_6" d="M0 0h7.157" class="cls-3" data-name="Line 6" transform="translate(12.566 16.14)"/>
+        </g>
+    </g>
+</svg>
