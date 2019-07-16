@@ -416,7 +416,12 @@ a:hover, a:active {
     margin: 10px 0 0;
     list-style: none;
 }
-
+.portfolio-content figure {
+    height: 250px;
+}
+.portfolio-content figure img{
+    height: 250px;
+}
 .portfolio-content li {
     margin: 0 3px;
 }
