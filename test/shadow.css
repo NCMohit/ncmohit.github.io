@@ -123,6 +123,14 @@
         width: 25px;
         height: 25px;   
     }
+    .site-navigation{
+      visibility: hidden;
+      opacity: 0;      
+    }
+    .hamburger-menu {
+      visibility: hidden;
+      opacity: 0;
+    }
     #files {
     	margin-left: 26%;
     }
@@ -141,14 +149,30 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    /*#foldericon {
-        margin-top: 40%;
-    }*/
+@media screen and (max-width: 768px) {
+    #foldericon {
+        display: none;      
+    }
     #files {
         display: none;
     }
-    /*#toggleicon {
-        margin-top: 40%
-    }*/
+    #toggleicon {
+        display: none;
+    }
+    #profileicon {
+      display: none;
+    }
+    #foldericon2 {
+        margin-top: 40%;
+        float: left;      
+    }
+    #toggleicon2 {
+      margin-top: 47%;
+        margin-left: 30%
+    }
+    #profileicon2 {
+      margin-top: 40%;
+      float: right;
+    }
+
 }
