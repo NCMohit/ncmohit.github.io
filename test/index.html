@@ -9,8 +9,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- FontAwesome CSS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+	<!-- FontAwesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Styles -->
@@ -115,15 +117,14 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="portfolio-content">
 					<div id="overlay" class="overlay" style="position: absolute;">
-						<a href=""><img class="editicon" src="images/edit.svg" style="position: absolute;top: 20px;right: 102px;"></a>
-						<a href=""><img class="shareicon" src="images/share.svg" style="position: absolute;top: 20px;right: 63px;"></a>
+						<a href="#editthumbnail"><img class="editicon" src="images/edit.svg" style="position: absolute;top: 20px;right: 102px;" data-toggle="modal" data-target="#editthumbnail"></a>
+						<a href="#share"><img class="shareicon" src="images/share.svg" style="position: absolute;top: 20px;right: 63px;" data-toggle="modal" data-target="#share"></a>
 						<a href=""><img class="linkicon" src="images/link.svg" style="position: absolute;top: 20px;right: 20px;"></a>
 						<h6 style="position: absolute;bottom: 20px;left: 20px;color: white;">Marketing Brochure</h6>
                     </div>
                     <figure>
                         <img class="back" src="images/back.png" alt="">
                     </figure>
-
 						
                     <!--<div class="entry-content flex flex-column align-items-center justify-content-center">
                         <h3><a href="#">Flower Skin</a></h3>
@@ -303,12 +304,56 @@
                     </div>--><!-- .entry-content -->
                 </div><!-- .portfolio-content -->
             </div><!-- .col -->
-
-
 
 
     </div><!-- .container -->
 </div><!-- .outer-container -->
+
+<div class="modal fade" id="editthumbnail">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<img src="images/et.svg" style="margin-right: 10px;">
+				<h4 class="modal-title"><h6 style="font-family: Helvetica;font-size: 25px;">Edit Thumbnail</h6></h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<div class="modal-body" style="text-align: center;">
+				<img src="images/back.png">
+			</div>
+
+			<div class="modal-footer">
+			  	<button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+			  	<button type="button" class="btn btn-primary" >Save</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="share">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<img src="images/st.svg" style="margin-right: 10px;">
+				<h4 class="modal-title"><h6 style="font-family: Helvetica;font-size: 25px;">Share with your team</h6></h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<div class="modal-body" style="text-align: center;">
+				<input type="text" class="form-control" placeholder="Enter email address...">
+			</div>
+
+			<div class="modal-footer">
+			  	<button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+			  	<button type="button" class="btn btn-primary" >Save</button>
+			</div>
+
+		</div>
+	</div>
+</div>
 
 <script type='text/javascript' src='js/jquery.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
