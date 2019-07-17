@@ -152,7 +152,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     #foldericon {
         display: none;      
     }
@@ -172,13 +172,13 @@
       display: none;
     }
     #foldericon2 {
-        margin-top: 5%;    
+            
     }
     #toggleicon2 {
-      margin-top: 5%;
+      
     }
     #profileicon2 {
-      margin-top: 5%;
+      
     }
 
 }
