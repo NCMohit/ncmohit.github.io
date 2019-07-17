@@ -156,6 +156,9 @@
     #foldericon {
         display: none;      
     }
+    .site-navigation{
+        overflow-y: auto;
+    }
     #files {
       display: none;
     }
