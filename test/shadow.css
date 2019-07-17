@@ -157,7 +157,7 @@
         display: none;      
     }
     #files {
-        display: none;
+      display: none;
     }
     .btn-default {
       right: 9%;
@@ -169,16 +169,13 @@
       display: none;
     }
     #foldericon2 {
-        margin-top: 40%;
-        float: left;      
+        margin-top: 5%;    
     }
     #toggleicon2 {
-      margin-top: 47%;
-        margin-left: 30%
+      margin-top: 5%;
     }
     #profileicon2 {
-      margin-top: 40%;
-      float: right;
+      margin-top: 5%;
     }
 
 }
