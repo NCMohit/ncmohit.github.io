@@ -127,6 +127,9 @@
       visibility: hidden;
       opacity: 0;      
     }
+    .btn-default {
+      right: 2%;
+    }
     .hamburger-menu {
       visibility: hidden;
       opacity: 0;
@@ -155,6 +158,9 @@
     }
     #files {
         display: none;
+    }
+    .btn-default {
+      right: 9%;
     }
     #toggleicon {
         display: none;
