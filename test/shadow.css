@@ -116,14 +116,19 @@
 .overlay:hover .linkicon{
     visibility: visible;
 }
-.modal-dialog,
-.modal-content {
+#modal-dialog,
+#modal-content {
   height: 97%
 }
-.modal-body {
+#modal-body {
     /* 100% = dialog height, 120px = header + footer */
+    position: relative;
     max-height: calc(100%);
 
+}
+#cropbox{
+  position: absolute;
+  margin-left: 10%;
 }
 @media screen and (min-width: 992px) {
     #foldericon {
