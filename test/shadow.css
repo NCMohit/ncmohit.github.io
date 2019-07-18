@@ -116,6 +116,15 @@
 .overlay:hover .linkicon{
     visibility: visible;
 }
+.modal-dialog,
+.modal-content {
+  height: 97%
+}
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100%);
+    overflow-y: scroll;
+}
 @media screen and (min-width: 992px) {
     #foldericon {
         margin-left: 26%;
@@ -171,14 +180,4 @@
     #profileicon {
       display: none;
     }
-    #foldericon2 {
-            
-    }
-    #toggleicon2 {
-      
-    }
-    #profileicon2 {
-      
-    }
-
 }
