@@ -185,4 +185,21 @@
     #profileicon {
       display: none;
     }
+    #alert{
+      margin-top: 10%;
+      margin-left: 10%;
+    }
 }
+
+
+/*   popup */
+.alert-message
+{
+position: absolute;
+z-index: 10;
+margin-top: 1%;
+margin-left: 50%;
+font-size: 14px;
+}
+
+
