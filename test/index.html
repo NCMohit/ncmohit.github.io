@@ -12,6 +12,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.js"></script>
 	<!-- FontAwesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <!-- Styles -->
@@ -37,8 +40,8 @@
 	<script type="text/javascript">
 		$(function() {
 			$('#emailinput').multiple_emails({
-			   theme: 'bootstrap', // Bootstrap is the default theme
-			   checkDupEmail: true // Should check for duplicate emails added
+			   theme: "SemanticUI",
+			   checkDupEmail: true 
 			});
 			$('#emailinput').text($('#emailinput').val());
 			$('#emailinput').change( function(){
