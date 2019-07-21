@@ -121,7 +121,6 @@
   height: 97%
 }
 #modal-body {
-    /* 100% = dialog height, 120px = header + footer */
     position: relative;
     max-height: calc(100%);
 
@@ -129,6 +128,51 @@
 #cropbox{
   position: absolute;
   margin-left: 10%;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  color: #5c7cee;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#colorbox{
+  background-color: #6181f3;
+}
+.picker {
+  display: inline-block;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(3, 1, 1, 0.08);
 }
 @media screen and (min-width: 992px) {
     #foldericon {
@@ -157,12 +201,24 @@
         width: 30px;
         height: 30px;
     }
+    #mobilebar{
+      display: none;
+    }
     #profileicon {
         margin-left: 10%;
         width: 35px;
         height: 35px;
         position: absolute;
         bottom: 2%;
+    }
+    /*   popup */
+    .alert-message
+    {
+    position: absolute;
+    z-index: 10;
+    margin-top: 1%;
+    margin-left: 50%;
+    font-size: 14px;
     }
 }
 
@@ -185,21 +241,24 @@
     #profileicon {
       display: none;
     }
-    #alert{
-      margin-top: 10%;
-      margin-left: 10%;
+    #mobilebar{
+      display: inline;
+      margin-bottom: 10%;
+    }
+    #bar{
+      display: none;
+    }
+    .alert-message
+    {
+    position: absolute;
+    z-index: 10;
+    margin-top: 50%;
+    margin-left: 50%;
+    font-size: 14px;
     }
 }
 
 
-/*   popup */
-.alert-message
-{
-position: absolute;
-z-index: 10;
-margin-top: 1%;
-margin-left: 50%;
-font-size: 14px;
-}
+
 
 
