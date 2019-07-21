@@ -20,5 +20,9 @@ $(function()
         $(".alert-message .alert").first().hide().fadeIn(200).delay(2000).fadeOut(1000, function () { $(this).remove(); });
 
     });
-
+    AColorPicker.from('.picker')
+    .on('change', (picker, color) => {
+      $('#colorbox').css('background-color', color);
+    });
 });
+
