@@ -23,6 +23,7 @@ $(function()
     AColorPicker.from('.picker')
     .on('change', (picker, color) => {
       $('#colorbox').css('background-color', color);
+      $('#colorbox2').css('background-color', color);
     });
 });
 
