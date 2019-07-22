@@ -11,4 +11,8 @@ function openbar(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+function uploadimg(){
+  document.getElementById('fileupload').click();
+}
 document.getElementById("defaultopen").click();
+document.getElementById("b1").click();
