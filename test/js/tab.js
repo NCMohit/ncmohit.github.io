@@ -17,6 +17,14 @@ function uploadimg(){
 function startshine(){
   document.getElementById("colorbox").classList.add("shine");
   document.getElementById("colorbox2").classList.add("shine");
+  document.getElementById("effectmain").classList.add("shine");
+  document.getElementById("effectmain").innerHTML = "Shine";
+}
+function removeeffect(){
+  document.getElementById("colorbox").classList.remove("shine");
+  document.getElementById("colorbox2").classList.remove("shine");
+  document.getElementById("effectmain").classList.remove("shine");
+  document.getElementById("effectmain").innerHTML = "None";
 }
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
