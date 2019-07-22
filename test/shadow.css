@@ -198,6 +198,39 @@ i {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+.shine {
+  display: inline-block;
+  position: relative;
+
+  margin: 20px;
+  border: none;
+  overflow: hidden;
+}
+.shine:after {
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: 0;
+  height: 120px;
+  width: 8px;
+  background: rgba(255, 255, 255, .8);
+  filter: blur(7px);
+  transform: translateX(-15px) rotate(20deg);
+  animation: shine 3s infinite linear;
+}
+@keyframes shine {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translateX(520px) rotate(20deg);
+  }
+  100% {
+    transform: translateX(520px) rotate(20deg);
+  }
+}
+
+
 @media screen and (min-width: 992px) {
     #foldericon {
         margin-left: 26%;
