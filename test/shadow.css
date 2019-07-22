@@ -134,7 +134,7 @@
   overflow: hidden;
   background-color: #ffffff;
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 
 /* Style the buttons inside the tab */
@@ -168,7 +168,7 @@
   border-top: none;
 }
 .tabcontent button{
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
   background-color: #ffffff;
 }
 #colorbox{
@@ -183,7 +183,7 @@
 }
 i {
   border: solid black;
-  border-width: 0 3px 3px 0;
+  border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
   float: right;
