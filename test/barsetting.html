@@ -27,6 +27,9 @@
     <script type="text/javascript" src="js/multiple-emails.js"></script>
     <link rel="stylesheet" href="css/multiple-emails.css" type="text/css" />
     <script type="text/javascript" src="js/popup.js"></script>
+    <script src="js/jscolor.js"></script>
+    <script src='js/color-pick.js'></script>
+    <link rel="stylesheet" href="css/color-pick.css" />
     <script type="text/javascript">
 
     jQuery(function(){
@@ -52,7 +55,7 @@
         });
     </script>
 </head>
-<body style="background-color: #f5f7fb">
+<body style="background-color: #f5f7fb" ng-app>
 <div class="alert-message"> </div>
 <header class="site-header">
     <div class="site-branding">
@@ -231,7 +234,60 @@
                     </div>
 
                     <div id="cta" class="tabcontent">
-                        <h3>Work in Progress</h3> 
+                        <button id="b5" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo5">Icon1 <i id="i5" class="arrow iup"></i></button>
+                        <div id="demo5" class="collapse">
+                            <h6>Icon: </h6>
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <span class="caret"></span></button>
+                                <ul style="width: 100%" class="dropdown-menu">
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                </ul>
+                            </div>
+                            <h6>Colour: </h6>
+                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
+                            <h6>Link: </h6>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="link1">
+                            </div>           
+                        </div>
+                        <button id="b6" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo6">Icon2 <i id="i6" class="arrow idown"></i></button>
+                        <div id="demo6" class="collapse">
+                            <h6>Icon: </h6>
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <span class="caret"></span></button>
+                                <ul style="width: 100%" class="dropdown-menu">
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                </ul>
+                            </div>
+                            <h6>Colour: </h6>
+                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
+                            <h6>Link: </h6>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="link2">
+                            </div>           
+                        </div>
+                        <button id="b7" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo7">Icon3 <i id="i7" class="arrow idown"></i></button>
+                        <div id="demo7" class="collapse">
+                            <h6>Icon: </h6>
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <span class="caret"></span></button>
+                                <ul style="width: 100%" class="dropdown-menu">
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                </ul>
+                            </div>
+                            <h6>Colour: </h6>
+                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="f0f0f0">
+                            <h6>Link: </h6>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="link3">
+                            </div>           
+                        </div>
                     </div>
                     <div style="text-align: center;margin-bottom: 5%;">
                         <button type="button" class="btn btn-dark">Delete</button>&nbsp<button type="submit" class="btn btn-primary">Save</button>
