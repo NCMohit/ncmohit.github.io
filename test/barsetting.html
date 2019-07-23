@@ -21,39 +21,11 @@
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" type="text/css" href="shadow.css" />
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css" />
 
-    <script src="tapmodo/js/jquery.Jcrop.js"></script>
-    <link rel="stylesheet" href="tapmodo/css/jquery.Jcrop.css" type="text/css" />
-    <script type="text/javascript" src="js/multiple-emails.js"></script>
-    <link rel="stylesheet" href="css/multiple-emails.css" type="text/css" />
     <script type="text/javascript" src="js/popup.js"></script>
     <script src="js/jscolor.js"></script>
     <script src='js/color-pick.js'></script>
-    <link rel="stylesheet" href="css/color-pick.css" />
-    <script type="text/javascript">
-
-    jQuery(function(){
-      jQuery('#cropbox').Jcrop({
-        trackDocument: true,
-        keySupport: false,
-        setSelect: [ 0, 0, 600, 600 ],
-        allowSelect: false,
-        aspectRatio: 1/1
-      });
-    });
-    </script>
-    <script type="text/javascript">
-        $(function() {
-            $('#emailinput').multiple_emails({
-               theme: "SemanticUI",
-               checkDupEmail: true 
-            });
-            $('#emailinput').text($('#emailinput').val());
-            $('#emailinput').change( function(){
-                $('#emailinput').text($(this).val());
-            });
-        });
-    </script>
 </head>
 <body style="background-color: #f5f7fb" ng-app>
 <div class="alert-message"> </div>
@@ -238,15 +210,16 @@
                         <div id="demo5" class="collapse">
                             <h6>Icon: </h6>
                             <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon1" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1fb()"><i class='zmdi zmdi-facebook-box' style='float: left;color: green;'></i>Facebook</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1em()"><i class='zmdi zmdi-email' style='float: left;'></i>E-Mail</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1ws()"><i class="zmdi zmdi-whatsapp" style="float: left;color: red;"></i>Whatsapp</a></li>
                                 </ul>
                             </div>
                             <h6>Colour: </h6>
-                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
+                                <input id="color1" style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
                             <h6>Link: </h6>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="link1">
@@ -256,11 +229,12 @@
                         <div id="demo6" class="collapse">
                             <h6>Icon: </h6>
                             <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon2" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2fb()"><i class='zmdi zmdi-facebook-box' style='float: left;'></i>Facebook</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2em()"><i class='zmdi zmdi-email' style='float: left;'></i>E-Mail</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2ws()"><i class="zmdi zmdi-whatsapp" style="float: left;"></i>Whatsapp</a></li>
                                 </ul>
                             </div>
                             <h6>Colour: </h6>
@@ -274,11 +248,12 @@
                         <div id="demo7" class="collapse">
                             <h6>Icon: </h6>
                             <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon3" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test</li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;">Test 2</li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3fb()"><i class='zmdi zmdi-facebook-box' style='float: left;'></i>Facebook</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3em()"><i class='zmdi zmdi-email' style='float: left;'></i>E-Mail</a></li>
+                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3ws()"><i class="zmdi zmdi-whatsapp" style="float: left;"></i>Whatsapp</a></li>
                                 </ul>
                             </div>
                             <h6>Colour: </h6>
