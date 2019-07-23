@@ -198,11 +198,11 @@ i {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+
 .shine {
   display: inline-block;
   position: relative;
 
-  margin: 20px;
   border: none;
   overflow: hidden;
 }
@@ -217,6 +217,10 @@ i {
   filter: blur(7px);
   transform: translateX(-15px) rotate(20deg);
   animation: shine 3s infinite linear;
+}
+.fa-facebook {
+  background: white;
+  color: blue;
 }
 @keyframes shine {
   0% {
