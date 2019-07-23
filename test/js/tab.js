@@ -28,3 +28,4 @@ function removeeffect(){
 }
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
+document.getElementById("b5").click();
