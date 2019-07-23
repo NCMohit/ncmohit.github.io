@@ -93,5 +93,47 @@ $(function()
         $("#i4").toggleClass("iup idown");
       }
     });
+    $("#b5").click(function(){     
+      if ($("#i6").hasClass("iup")) {
+        document.getElementById("b6").click();
+      }
+      if ($("#i7").hasClass("iup")) {
+        document.getElementById("b7").click();
+      }
+      if ($("#i5").hasClass("iup")) {
+        $("#i5").toggleClass("idown iup");
+      }
+      else{
+        $("#i5").toggleClass("idown iup");
+      }
+    });
+    $("#b6").click(function(){     
+      if ($("#i5").hasClass("iup")) {
+        document.getElementById("b5").click();
+      }
+      if ($("#i7").hasClass("iup")) {
+        document.getElementById("b7").click();
+      }
+      if ($("#i6").hasClass("iup")) {
+        $("#i6").toggleClass("idown iup");
+      }
+      else{
+        $("#i6").toggleClass("idown iup");
+      }
+    });
+    $("#b7").click(function(){     
+      if ($("#i5").hasClass("iup")) {
+        document.getElementById("b5").click();
+      }
+      if ($("#i6").hasClass("iup")) {
+        document.getElementById("b6").click();
+      }
+      if ($("#i7").hasClass("iup")) {
+        $("#i7").toggleClass("idown iup");
+      }
+      else{
+        $("#i7").toggleClass("idown iup");
+      }
+    });
 });
 
