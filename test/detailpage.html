@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test page</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/a-color-picker@1.1.8/dist/acolorpicker.js"></script>
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="shadow.css" />
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css" />
+    <link rel="stylesheet" type="text/css" href="css/pulse.css" />
+
+    <script type="text/javascript" src="js/popup.js"></script>
+    <script src="js/jscolor.js"></script>
+    <script src='js/color-pick.js'></script>
+</head>
+<body style="background-color: #f5f7fb" ng-app>
+<header class="site-header">
+    <div class="site-branding">
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo_ct.svg" alt="Logo" style="width: 40px;height: 44px;"></a></h1>
+    </div>
+        <a href=""><img id="foldericon" src="images/folder.svg" ></a>
+        <h6 id="files" style="color: #000000;font-family: Helvetica;font-size: 12px;">Files</h6>
+        <a href="barsetting.html"><img id="toggleicon" src="images/toggle.svg" ></a>
+        <div style="float: bottom;">
+            <a href=""><img id="profileicon" src="images/profile.jpg"></a>
+        </div>
+    <div class="hamburger-menu" style="margin-bottom: 10%">
+        <div class="menu-icon">
+            <img src="images/menu-icon.png" alt="menu icon">
+        </div>
+
+        <div class="menu-close-icon">
+            <img src="images/x.png" alt="menu close icon">
+        </div> 
+    </div>
+</header>
+<nav class="site-navigation flex flex-column justify-content-between">
+    <div class="site-branding d-none d-lg-block ">
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo_ct.svg" alt="Logo"></a></h1>
+    </div><!-- .site-branding -->
+
+    <ul class="main-menu flex flex-column justify-content-center">
+<!--       <li class="current-menu-item"><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li> -->
+
+        <li>
+            <div class="row">
+                <div class="col" style="flex-grow: 0;">
+                    <a href=""><img id="foldericon2" src="images/folder.svg"></a>
+                </div>
+                <div class="col">
+                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%;float: left;">Files</h6>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="row">
+                <div class="col" style="flex-grow: 0;">
+                    <a href="barsetting.html"><img id="toggleicon2" src="images/toggle.svg"></a>
+                </div>
+                <div class="col">
+                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%">Create</h6>
+                </div>
+            </div>          
+        </li>
+        <li style="position: absolute;bottom: 10%;flex-grow: 0;">
+            <div class="row" >
+                <div class="col">
+                    <a href=""><img id="profileicon2" src="images/profile.jpg"></a>
+                </div>
+                <div class="col">
+                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%">Sign Out</h6>
+                </div>
+                <div class="col"></div>
+            </div>          
+        </li>       
+
+    </ul>
+
+
+
+
+    <!--<div class="social-profiles">
+        <ul class="flex justify-content-start justify-content-lg-center align-items-center">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+    </div> .social-profiles -->
+</nav><!-- .site-navigation -->
+<div class="nav-bar-sep d-lg-none"></div>
+<div class="outer-container">
+    <div class="container portfolio-page">
+        <div id="dragcircle" style="display: none;">
+            <div id="dragcircleheader">
+                Move
+            </div>
+            <div class="animated pulse" id="abc" style="z-index: 1;height: 150px;width: 150px;border: 3px solid red;border-radius: 50%;display: inline-block;">    
+            </div>
+        </div>
+        <div id="colorbox" class="container" style="width: 40%;height: 90px;border-radius: 15px;bottom: 10px;position: fixed;left: 20%;z-index: 10">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/profile.jpg" class="img-responsive" style="height: 80%;border-radius: 15%;margin-top: 30%;position: relative;">
+                </div>
+                <div class="col-5" style="float: left;">
+                    <p style="color: white;margin-top: 15%">Title goes here<br><span style="font-size: 10px;">Your tagline goes here</span></p>
+                </div>
+                <div class="col-5">
+                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
+                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
+                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a> 
+                </div>
+            </div>
+        </div>
+        <div class="container" style="position: fixed;background-color: white;width: 30%;height: 50%;border-radius: 15px;right: 5%;top: 5%;">
+            <div class="tab">
+                <h3 style="text-align: left;margin-top: 5%;margin-bottom: 5%;color: #6181f3">Edit Page</h3>
+            </div>
+            <button id="b8" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;" data-target="#demo8">Button <i id="i8" class="arrow idown"></i></button>
+            <div id="demo8" class="collapse">
+                <div class="dropdown">
+                    <button id="icon4" class="btn btn-light dropdown-toggle" style="width: 80%;margin-left: 10%;" type="button" data-toggle="dropdown">Select
+                    <span class="caret"></span></button>
+                    <ul style="width: 80%" class="dropdown-menu">
+                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4none()">None</a></li>
+                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4b1()">Button 1</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="b9" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;" data-target="#demo9">Animation <i id="i9" class="arrow idown"></i></button>
+            <div id="demo9" class="collapse">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="#"><img onclick="showcircle()" src="images/Circle.svg"></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#"><img src="images/Square.svg"></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#"><img src="images/Triangle.svg"></a>
+                    </div>    
+                </div>
+
+                <br>
+                <div class="row" id="circlerow" style="display: none;">
+                    <div class="col-6">
+                        <h6>Circle 1: </h6>
+                    </div>
+                    <div class="col-6">
+                        <a href="" onclick="deletecircle()">Delete</a>
+                    </div>
+                </div>
+                <input id="circlecolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor" value="000000">
+                <br>
+                <div class="row" id="sqrrow" style="display: none;">
+                    <div class="col-8">
+                        <h6>Square 1: </h6>
+                    </div>
+                    <div class="col-4">
+                        <a href="" onclick="deletesquare()">Delete</a>
+                    </div>
+                </div>
+                <input id="sqrcolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor" value="7D7FFF"> 
+                <br>
+                <div class="row" id="trirow" style="display: none;">
+                    <div class="col-8">
+                        <h6>Traingle 1: </h6>
+                    </div>
+                    <div class="col-4">
+                        <a href="" onclick="deletetr()">Delete</a>
+                    </div>
+                </div>
+                <input id="rectcolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor" value="7D7FFF">                 
+            </div>
+            <div style="text-align: center;margin-top: 1%;">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+        <img src="images/back.png" style="margin-left: 9%;margin-top: 10%;width: 50%">
+        <img src="images/back.png" style="margin-left: 9%;margin-top: 5%;width: 50%">
+
+    </div><!-- .container -->
+</div><!-- .outer-container -->
+<script src='js/dragdiv.js'></script>
+<script type='text/javascript' src='js/tab.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+</body>
+</html>
