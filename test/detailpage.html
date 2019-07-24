@@ -170,7 +170,7 @@
                         <a href="" onclick="deletecircle()">Delete</a>
                     </div>
                 </div>
-                <input id="circlecolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor" value="000000">
+                <input id="circlecolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'setcirclecolor(this)'}" value="000000">
                 <br>
                 <div class="row" id="sqrrow" style="display: none;">
                     <div class="col-8">
@@ -196,7 +196,8 @@
                 <button type="submit" class="btn btn-primary">Save</button>
             </div>
         </div>
-        <img src="images/back.png" style="margin-left: 9%;margin-top: 10%;width: 50%">
+        <h5 style="margin-left: 9%;">Marketing Brochure</h5>
+        <img src="images/back.png" style="margin-left: 9%;margin-top: 1%;width: 50%">
         <img src="images/back.png" style="margin-left: 9%;margin-top: 5%;width: 50%">
 
     </div><!-- .container -->
