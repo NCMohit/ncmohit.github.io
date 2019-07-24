@@ -19,6 +19,7 @@ function startshine(){
   document.getElementById("colorbox2").classList.add("shine");
   document.getElementById("effectmain").classList.add("shine");
   document.getElementById("effectmain").innerHTML = "Shine";
+  document.getElementById("ishine").classList.add("arrow idown");
 }
 function removeeffect(){
   document.getElementById("colorbox").classList.remove("shine");
@@ -53,6 +54,18 @@ function addicon3em(){
 function addicon3ws(){
   document.getElementById("icon3").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp";
 }
+function addicon4none(){
+  document.getElementById("icon4").innerHTML = "None";
+}
+function addicon4b1(){
+  document.getElementById("icon4").innerHTML = "Button 1";
+}
+function showcircle(){
+  document.getElementById("dragcircle").style.display = 'block';
+  document.getElementById("circlerow").style.display = 'block'
+  document.getElementById("circlecolor").style.display = 'block'
+}
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
 document.getElementById("b5").click();
+document.getElementById("b8").click();
