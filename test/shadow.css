@@ -222,6 +222,22 @@ i {
   background: white;
   color: blue;
 }
+#dragcircle {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  opacity: 0.5;
+}
+
+#dragcircleheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
 @keyframes shine {
   0% {
     transform: translate(0, 0);
