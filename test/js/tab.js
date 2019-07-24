@@ -66,7 +66,7 @@ function showcircle(){
   document.getElementById("circlecolor").style.display = 'block';
 }
 function showsqr(){
-  //document.getElementById("dragsqr").style.display = 'block';
+  document.getElementById("dragsqr").style.display = 'block';
   document.getElementById("sqrrow").style.display = 'block';
   document.getElementById("sqrcolor").style.display = 'block';
 }
@@ -77,6 +77,9 @@ function showtr(){
 }
 function setcirclecolor(picker) {
   document.getElementById("abc").style.border = '3px solid ' + '#' + picker.toString()
+}
+function setsqrcolor(picker) {
+  document.getElementById("abc2").style.border = '3px solid ' + '#' + picker.toString()
 }
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
