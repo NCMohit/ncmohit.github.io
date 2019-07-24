@@ -75,6 +75,9 @@ function showtr(){
   document.getElementById("trirow").style.display = 'block';
   document.getElementById("tricolor").style.display = 'block';
 }
+function setcirclecolor(picker) {
+  document.getElementById("abc").style.border = '3px solid ' + '#' + picker.toString()
+}
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
 document.getElementById("b5").click();
