@@ -135,5 +135,27 @@ $(function()
         $("#i7").toggleClass("idown iup");
       }
     });
+    $("#b8").click(function(){     
+      if ($("#i9").hasClass("iup")) {
+        document.getElementById("b9").click();
+      }
+      if ($("#i8").hasClass("iup")) {
+        $("#i8").toggleClass("idown iup");
+      }
+      else{
+        $("#i8").toggleClass("idown iup");
+      }
+    });
+    $("#b9").click(function(){     
+      if ($("#i8").hasClass("iup")) {
+        document.getElementById("b8").click();
+      }
+      if ($("#i9").hasClass("iup")) {
+        $("#i9").toggleClass("idown iup");
+      }
+      else{
+        $("#i9").toggleClass("idown iup");
+      }
+    });
 });
 
