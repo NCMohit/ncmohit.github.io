@@ -119,6 +119,13 @@
             <div class="animated pulse resize-drag" id="abc" style="z-index: 1;height: 150px;width: 150px;border: 3px solid black;border-radius: 50%;display: inline-block;">    
             </div>
         </div>
+        <div id="dragsqr" style="display: none;">
+            <div id="dragsqrheader">
+                Move
+            </div>
+            <div class="animated pulse resize-drag" id="abc2" style="z-index: 1;height: 150px;width: 150px;border: 3px solid #7D7FFF;display: inline-block;">    
+            </div>
+        </div>
         <div id="colorbox" class="container" style="width: 40%;height: 90px;border-radius: 15px;bottom: 10px;position: fixed;left: 20%;z-index: 10">
             <div class="row">
                 <div class="col-2">
@@ -182,7 +189,7 @@
                         <a href="" onclick="deletesquare()">Delete</a>
                     </div>
                 </div>
-                <input id="sqrcolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor" value="7D7FFF"> 
+                <input id="sqrcolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'setsqrcolor(this)'}" value="7D7FFF"> 
                 <br>
                 <div class="row" id="trirow" style="display: none;">
                     <div class="col-8">
