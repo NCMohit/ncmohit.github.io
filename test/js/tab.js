@@ -62,8 +62,18 @@ function addicon4b1(){
 }
 function showcircle(){
   document.getElementById("dragcircle").style.display = 'block';
-  document.getElementById("circlerow").style.display = 'block'
-  document.getElementById("circlecolor").style.display = 'block'
+  document.getElementById("circlerow").style.display = 'block';
+  document.getElementById("circlecolor").style.display = 'block';
+}
+function showsqr(){
+  //document.getElementById("dragsqr").style.display = 'block';
+  document.getElementById("sqrrow").style.display = 'block';
+  document.getElementById("sqrcolor").style.display = 'block';
+}
+function showtr(){
+  //document.getElementById("dragsqr").style.display = 'block';
+  document.getElementById("trirow").style.display = 'block';
+  document.getElementById("tricolor").style.display = 'block';
 }
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
