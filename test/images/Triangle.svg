@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="71" viewBox="0 0 82 71">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-3{stroke:none}.cls-3{fill:#7d7fff}
+        </style>
+    </defs>
+    <g id="Triangle" class="cls-1">
+        <path d="M41 0l41 71H0z" class="cls-2"/>
+        <path d="M41 2L1.732 70h78.536L41 2m0-2l41 71H0L41 0z" class="cls-3"/>
+    </g>
+</svg>
