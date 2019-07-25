@@ -1,5 +1,6 @@
 dragElement(document.getElementById("dragcircle"));
 dragElement(document.getElementById("dragsqr"));
+dragElement(document.getElementById("dragtri"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
