@@ -250,6 +250,24 @@ i {
   background-color: #2196F3;
   color: #fff;
 }
+#dragtri {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+#abc3{
+  color: #7d7FFF;
+  resize: both;
+  overflow: auto;
+}
+#dragtriheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
 .animated {
    -webkit-animation-duration: 1s;
    animation-duration: 1s;
