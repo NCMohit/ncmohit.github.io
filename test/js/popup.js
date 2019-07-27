@@ -11,7 +11,7 @@ $(function()
         
        // alert('alert type is: '+ alertType);
         
-        var htmlAlert = '<div class="alert '+ alertType +'" style="background-color: black;"><p style="color: white;">'+ message +'</p></div>';
+        var htmlAlert = '<div class="alert '+ alertType +'" style="background-color: black;position: fixed;left: 48.5%;"><p style="color: white;">'+ message +'</p></div>';
         
        // alert(htmlAlert);
         
