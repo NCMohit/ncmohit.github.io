@@ -30,13 +30,13 @@
     <script src="js/jscolor.js"></script>
     <script src='js/color-pick.js'></script>
 </head>
-<body style="background-color: #f5f7fb" ng-app>
+<body style="background-color: #f5f7fb;" ng-app>
 <header class="site-header">
     <div class="site-branding">
         <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo_ct.svg" alt="Logo" style="width: 40px;height: 44px;"></a></h1>
     </div>
         <a href=""><img id="foldericon" src="images/folder.svg" ></a>
-        <h6 id="files" style="color: #000000;font-family: Helvetica;font-size: 12px;">Files</h6>
+        <h6 id="files" style="color: #000000;font-family: Poppins;font-size: 12px;">Files</h6>
         <a href="barsetting.html"><img id="toggleicon" src="images/toggle.svg" ></a>
         <div style="float: bottom;">
             <a href=""><img id="profileicon" src="images/profile.jpg"></a>
@@ -69,7 +69,7 @@
                     <a href=""><img id="foldericon2" src="images/folder.svg"></a>
                 </div>
                 <div class="col">
-                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%;float: left;">Files</h6>
+                    <h6 id="files2" style="color: #000000;font-family: Poppins;font-size: 12px;margin-top: 3%;float: left;">Files</h6>
                 </div>
             </div>
         </li>
@@ -79,7 +79,7 @@
                     <a href="barsetting.html"><img id="toggleicon2" src="images/toggle.svg"></a>
                 </div>
                 <div class="col">
-                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%">Create</h6>
+                    <h6 id="files2" style="color: #000000;font-family: Poppins;font-size: 12px;margin-top: 3%">Create</h6>
                 </div>
             </div>          
         </li>
@@ -89,7 +89,7 @@
                     <a href=""><img id="profileicon2" src="images/profile.jpg"></a>
                 </div>
                 <div class="col">
-                    <h6 id="files2" style="color: #000000;font-family: Helvetica;font-size: 12px;margin-top: 3%">Sign Out</h6>
+                    <h6 id="files2" style="color: #000000;font-family: Poppins;font-size: 12px;margin-top: 3%">Sign Out</h6>
                 </div>
                 <div class="col"></div>
             </div>          
@@ -171,7 +171,7 @@
                     <div class="col-4">
                         <a href="#"><img onclick="showsqr()" src="images/Square.svg"></a>
                     </div>
-                    <div class="col-4" style="display: none;">
+                    <div class="col-4">
                         <a href="#"><img onclick="showtr()" src="images/Triangle.svg"></a>
                     </div>    
                 </div>
@@ -206,7 +206,7 @@
                     </div>
                 </div>
                 <input id="tricolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'settricolor(this)'}" value="7D7FFF">
-                <input id="trisize" class="form-control" placeholder="Traingle Size" style="display: none;" type="text" onkeypress="abc3.style.fontSize = (this.value) + 'px';">                 
+                <input id="trisize" style="display: none;" type="text" onkeypress="abc3.style.fontSize = (this.value) + 'px';">                 
             </div>
             <div style="text-align: center;margin-top: 1%;">
                 <button type="submit" class="btn btn-primary">Save</button>
