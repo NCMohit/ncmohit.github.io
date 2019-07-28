@@ -125,6 +125,10 @@
     max-height: calc(100%);
 
 }
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
 #cropbox{
   position: absolute;
   margin-left: 10%;
@@ -272,6 +276,18 @@ i {
    -webkit-animation-fill-mode: both;
    animation-fill-mode: both;
    animation-iteration-count: infinite;
+}
+.multiple_emails-input::-moz-placeholder{
+    color:#999;
+    opacity:1
+}
+
+.multiple_emails-input:-ms-input-placeholder{
+    color:#999
+}
+
+.multiple_emails-input::-webkit-input-placeholder{
+    color:#999
 }
 @-webkit-keyframes pulse {
    0% { -webkit-transform: scale(1); }
