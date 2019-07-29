@@ -40,7 +40,7 @@
 				});
 			}
 			
-			var $input = $('<input type="text" class="multiple_emails-input text-left" placeholder="Enter Email" />').on('keyup', function(e) { // input
+			var $input = $('<input type="text" class="multiple_emails-input text-left" placeholder="Enter Email" style="padding-bottom: 2%;" />').on('keyup', function(e) { // input
 				$(this).removeClass('multiple_emails-error');
 				var input_length = $(this).val().length;
 				
