@@ -52,7 +52,7 @@ function addicon3em(){
   document.getElementById("icon3").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon3ws(){
-  document.getElementById("icon3").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp";
+  document.getElementById("icon3").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon4none(){
   document.getElementById("icon4").innerHTML = "None";
