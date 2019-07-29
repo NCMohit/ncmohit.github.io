@@ -85,6 +85,10 @@ function setsqrcolor(picker) {
 function settricolor(picker) {
   document.getElementById("abc3").style.color = '#' + picker.toString()
 }
+function setboxcolor(picker) {
+  document.getElementById("colorbox").style.backgroundColor = '#' + picker.toString();
+  document.getElementById("colorbox2").style.backgroundColor = '#' + picker.toString();
+}
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
 document.getElementById("b5").click();
