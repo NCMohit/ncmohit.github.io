@@ -374,6 +374,10 @@ i {
     margin-left: 50%;
     font-size: 14px;
     }
+    #rightbox{
+      margin-left: -30%;
+      margin-top: -10%;
+    }
 }
 
 @media screen and (max-width: 992px) {
