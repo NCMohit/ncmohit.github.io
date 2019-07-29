@@ -118,7 +118,7 @@
 }
 #modal-dialog,
 #modal-content {
-  height: 94%
+  height: auto;
 }
 #modal-body {
     position: relative;
