@@ -280,6 +280,9 @@ i {
   background-color: #2196F3;
   color: #fff;
 }
+.dropdown-toggle::after {
+    display: none;
+}
 .animated {
    -webkit-animation-duration: 1s;
    animation-duration: 1s;
@@ -376,7 +379,7 @@ i {
     }
     #rightbox{
       margin-left: -30%;
-      margin-top: -10%;
+      margin-top: -20%;
     }
 }
 
