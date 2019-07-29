@@ -28,28 +28,28 @@ function removeeffect(){
   document.getElementById("effectmain").innerHTML = "None";
 }
 function addicon1fb(){
-  document.getElementById("icon1").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook";
+  document.getElementById("icon1").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon1em(){
-  document.getElementById("icon1").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail";
+  document.getElementById("icon1").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon1ws(){
-  document.getElementById("icon1").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp";
+  document.getElementById("icon1").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon2fb(){
-  document.getElementById("icon2").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook";
+  document.getElementById("icon2").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon2em(){
-  document.getElementById("icon2").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail";
+  document.getElementById("icon2").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon2ws(){
-  document.getElementById("icon2").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp";
+  document.getElementById("icon2").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon3fb(){
-  document.getElementById("icon3").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook";
+  document.getElementById("icon3").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon3em(){
-  document.getElementById("icon3").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail";
+  document.getElementById("icon3").innerHTML = "<p class='zmdi zmdi-email' style='float: left;'></p>E-Mail<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon3ws(){
   document.getElementById("icon3").innerHTML = "<p id='test1' class='zmdi zmdi-whatsapp' style='float: left;'></p>Whatsapp";
