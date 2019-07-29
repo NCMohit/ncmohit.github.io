@@ -18,14 +18,14 @@ function startshine(){
   document.getElementById("colorbox").classList.add("shine");
   document.getElementById("colorbox2").classList.add("shine");
   document.getElementById("effectmain").classList.add("shine");
-  document.getElementById("effectmain").innerHTML = "Shine";
+  document.getElementById("effectmain").innerHTML = "Shine<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
   document.getElementById("ishine").classList.add("arrow idown");
 }
 function removeeffect(){
   document.getElementById("colorbox").classList.remove("shine");
   document.getElementById("colorbox2").classList.remove("shine");
   document.getElementById("effectmain").classList.remove("shine");
-  document.getElementById("effectmain").innerHTML = "None";
+  document.getElementById("effectmain").innerHTML = "None<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
 }
 function addicon1fb(){
   document.getElementById("icon1").innerHTML = "<p class='zmdi zmdi-facebook-box' style='float: left;'></p>Facebook<span class='fa fa-caret-down' style='float: right;color: gray;'></span>";
