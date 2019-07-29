@@ -129,9 +129,9 @@
                             <p style="color: white;margin-top: 18%">Title goes here<br><span style="font-size: 10px;">Your tagline goes here</span></p>
                         </div>
                         <div class="col-5">
-                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a>
-                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a>
-                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a> 
+                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 10%"></a>
+                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 10%"></a>
+                            <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 10%"></a> 
                         </div>
                     </div>
                 </div>
@@ -146,9 +146,9 @@
                             <p style="color: white;margin-top: 15%">Title goes here<br><span style="font-size: 10px;">Your tagline goes here</span></p>
                         </div>
                         <div class="col-5">
-                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
-                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
-                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a> 
+                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 10%"></a>
+                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 10%"></a>
+                            <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 10%"></a> 
                         </div>
                     </div>
                 </div>
@@ -156,8 +156,8 @@
             <div class="col-12 col-md-12 col-lg-4">
                 <div class="container" style="background-color: white;width: 100%;height: 100%;border-radius: 15px;">
                     <div class="tab">
-                        <button id="defaultopen" class="tablinks" onclick="openbar(event, 'bs')">Bar Settings</button>
-                        <button class="tablinks" onclick="openbar(event, 'cta')">Call to Action</button>
+                        <button id="defaultopen" class="tablinks" onclick="openbar(event, 'bs')" style="float: left;">Bar Settings</button>
+                        <button class="tablinks" onclick="openbar(event, 'cta')" style="float: right;">Call to Action</button>
                     </div>
                     <form action="">
                     <div id="bs" class="tabcontent">
@@ -165,21 +165,21 @@
                             <button id="b1" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo">Logo <i id="i1" class="arrow iup"></i></button>
                             <div id="demo" class="collapse">
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-2">
                                         <img src="images/profile.jpg">
                                     </div>
-                                    <div class="col">
-                                        <input type="file" name="fileupload" value="fileupload" id="fileupload" accept="image/*" hidden><a href=""><p style="float: left;padding-right: 50%;font-size: 15px;" onclick="uploadimg()">Browse Files</p></a>
-                                        <p style="float: right;padding-right: 50%;font-size: 10px;">Dimensions: 500px*500px</p>
+                                    <div class="col-10">
+                                        <input type="file" name="fileupload" value="fileupload" id="fileupload" accept="image/*" hidden><a href="#"><p style="float: left;padding-right: 50%;font-size: 15px;" onclick="uploadimg()">Browse Files</p></a>
+                                        <pre style="padding-top: 3%;padding-right: 50%;font-size: 12px;font-family: Poppins;">Dimensions: 500px*500px</pre>                                           
                                     </div>
                                 </div>               
                             </div>
+                            <hr>
                             <button id="b2" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo2">Colour <i id="i2" class="arrow idown"></i></button>
                             <div id="demo2" class="collapse">
-    							<div class="picker" 
-    							     acp-color="#6181f3">
-    							</div>
+    							<input id="color4" style="border-radius: 5px;width: 100%;margin-bottom: 3%" class="jscolor {onFineChange:'setboxcolor(this)'}" value="7d7FFF">
                             </div>
+                            <hr>
                             <button id="b3" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo3">Title <i id="i3" class="arrow idown"></i></button>
                             <div id="demo3" class="collapse">
                                 <div class="form-group">
@@ -191,26 +191,27 @@
                                     <input type="text" class="form-control" id="tagline">
                                 </div>
                             </div>
+                            <hr>
                             <button id="b4" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo4">Effect <i id="i4" class="arrow idown"></i></button>
                             <div id="demo4" class="collapse">
                                 <div class="dropdown">
                                     <button id="effectmain" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
                                     <span class="caret"></span></button>
                                     <ul style="width: 100%" class="dropdown-menu">
-                                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#"><p onclick="removeeffect()">None</p></a></li>
-                                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#"><p onclick="startshine()">Shine</p></a></li>
+                                        <li style="width: 100%;margin-top: 5%;text-align: left;margin-left: 5%;"><a href="#"><p onclick="removeeffect()">None</p></a></li>
+                                        <li style="width: 100%;margin-top: 5%;text-align: left;margin-left: 5%;"><a href="#"><p onclick="startshine()">Shine</p></a></li>
                                     </ul>
                                 </div>
                             </div>
-                        
+                            <hr>
                     </div>
 
                     <div id="cta" class="tabcontent">
                         <button id="b5" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo5">Icon1 <i id="i5" class="arrow iup"></i></button>
                         <div id="demo5" class="collapse">
-                            <h6>Icon: </h6>
+                            <h6 style="margin-top: 1%;font-size: 13px;">Icon </h6>
                             <div class="dropdown">
-                                <button id="icon1" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon1" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 2%;" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1fb()"><p class='zmdi zmdi-facebook-box' style="float: left;color: black;margin-left: 5px;"></p>Facebook</a></li>
@@ -218,18 +219,19 @@
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
                                 </ul>
                             </div>
-                            <h6>Colour: </h6>
-                                <input id="color1" style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
-                            <h6>Link: </h6>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="link1">
+                            <h6 style="margin-top: 1%;font-size: 13px;">Colour </h6>
+                                <input id="color1" style="border-radius: 5px;width: 100%;margin-top: 1%;" class="jscolor" value="ab2567">
+                            <h6 style="margin-top: 3%;font-size: 13px;">Link </h6>
+                            <div class="form-group" style="margin-top: 1%;">
+                                <input type="text" class="form-control" id="link1" style="margin-top: 2%;">
                             </div>           
                         </div>
+                        <hr>
                         <button id="b6" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo6">Icon2 <i id="i6" class="arrow idown"></i></button>
                         <div id="demo6" class="collapse">
-                            <h6>Icon: </h6>
+                            <h6 style="font-size: 13px;">Icon </h6>
                             <div class="dropdown">
-                                <button id="icon2" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon2" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 2%;" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2fb()"><p class='zmdi zmdi-facebook-box' style='float: left;color: black;margin-left: 5px;'></p>Facebook</a></li>
@@ -237,18 +239,19 @@
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
                                 </ul>
                             </div>
-                            <h6>Colour: </h6>
-                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="ab2567">
-                            <h6>Link: </h6>
+                            <h6 style="margin-top: 1%;font-size: 13px;">Colour </h6>
+                                <input style="border-radius: 5px;width: 100%;margin-top: 2%;" class="jscolor" value="ab2567">
+                            <h6 style="margin-top: 3%;font-size: 13px;">Link </h6>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="link2">
+                                <input type="text" class="form-control" id="link2" style="margin-top: 2%;">
                             </div>           
                         </div>
+                        <hr>
                         <button id="b7" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;" data-target="#demo7">Icon3 <i id="i7" class="arrow idown"></i></button>
                         <div id="demo7" class="collapse">
-                            <h6>Icon: </h6>
+                            <h6 style="font-size: 13px;">Icon </h6>
                             <div class="dropdown">
-                                <button id="icon3" class="btn btn-light dropdown-toggle" style="width: 100%" type="button" data-toggle="dropdown">Select
+                                <button id="icon3" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 2%;" type="button" data-toggle="dropdown">Select
                                 <span class="caret"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3fb()"><p class='zmdi zmdi-facebook-box' style='float: left;color: black;color: black;margin-left: 5px;'></p>Facebook</a></li>
@@ -256,16 +259,17 @@
                                     <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
                                 </ul>
                             </div>
-                            <h6>Colour: </h6>
-                                <input style="border-radius: 10px;width: 100%;margin-bottom: 3%" class="jscolor" value="f0f0f0">
-                            <h6>Link: </h6>
+                            <h6 style="margin-top: 1%;font-size: 13px;">Colour </h6>
+                                <input style="border-radius: 5px;width: 100%;margin-top: 2%;" class="jscolor" value="f0f0f0">
+                            <h6 style="margin-top: 3%;font-size: 13px;">Link </h6>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="link3">
+                                <input type="text" class="form-control" id="link3" style="margin-top: 2%;">
                             </div>           
                         </div>
+                        <hr>
                     </div>
                     <div style="text-align: center;margin-bottom: 5%;">
-                        <button type="button" class="btn btn-dark">Delete</button>&nbsp<button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-outline-dark">Delete</button>&nbsp<button type="submit" class="btn btn-primary" style="background-color: #7D7FFF">Save</button>
                     </div>
                     </form>
                 </div>
