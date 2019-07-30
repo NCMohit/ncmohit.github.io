@@ -26,6 +26,7 @@
     <script type="text/javascript" src="js/multiple-emails.js"></script>
     <link rel="stylesheet" href="css/multiple-emails.css" type="text/css" />
     <script type="text/javascript" src="js/popup.js"></script>
+    <script type='text/javascript' src='js/tab.js'></script>
     <script type="text/javascript">
 
     jQuery(function(){
@@ -138,7 +139,7 @@
             <div class="col">
       
                     <h6 style="font-size: 28px;font-weight: bold;color: #000000;font-family: Poppins;">Smart Files</h6>
-                    <a href="" class="btn-default" style="position: absolute;top: 0px;"><span style="font-size: 40px;">+</span></a>
+                    <input type="file" name="fileupload2" value="fileupload2" id="fileupload2" hidden><a href="" class="btn-default" style="position: absolute;top: 0px;"><span style="font-size: 40px;" onclick="uploadplus()">+</span></a>
                 <!-- .breadcrumbs -->            
             </div><!-- .col -->
         </div><!-- .row -->
@@ -335,7 +336,7 @@
                 </div><!-- .portfolio-content -->
             </div><!-- .col -->
 
-            <div class="modal fade" id="share" role="dialog" style="height: 100%;padding-top: 15%;">
+            <div class="modal fade" id="share" role="dialog" style="height: 100%;padding-top: 15%;overflow-y: hidden;">
                 <div class="modal-dialog modal-dialog-centered" style="vertical-align: middle;">
                     <div class="modal-content">
 
@@ -359,7 +360,7 @@
     </div><!-- .container -->
 </div><!-- .outer-container -->
 
-<div class="modal fade" id="editthumbnail" style="padding-top: 5%;">
+<div class="modal fade" id="editthumbnail" style="padding-top: 5%;overflow-y: hidden;">
     <div class="modal-dialog modal-dialog-centered" id="modal-dialog">
         <div class="modal-content" id="modal-content">
 
