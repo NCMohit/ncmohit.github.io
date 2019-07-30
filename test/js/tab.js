@@ -14,6 +14,9 @@ function openbar(evt, cityName) {
 function uploadimg(){
   document.getElementById('fileupload').click();
 }
+function uploadplus(){
+  document.getElementById('fileupload2').click();
+}
 function startshine(){
   document.getElementById("colorbox").classList.add("shine");
   document.getElementById("colorbox2").classList.add("shine");
