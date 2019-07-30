@@ -132,70 +132,67 @@
             </div>
             <div class="animated pulse" id="abc3" style='font-size:100px;'>&#9651;</div>    
         </div>
-        <div id="colorbox" class="container" style="width: 40%;height: 90px;border-radius: 15px;bottom: 10px;position: fixed;left: 20%;z-index: 10">
+        <div id="colorbox" class="container" style="width: 35%;height: 90px;border-radius: 15px;bottom: 10px;position: fixed;left: 22%;z-index: 10">
             <div class="row">
-                <div class="col-2">
-                    <img src="images/profile.jpg" class="img-responsive" style="height: 80%;border-radius: 15%;margin-top: 30%;position: relative;">
+                <div class="col-md-2 col-sm-3">
+                    <img src="images/profile.jpg" style="height: 80%;border-radius: 15%;margin-top: 35%;">
                 </div>
-                <div class="col-5" style="float: left;">
+                <div class="col-md-5 col-sm-5" style="float: left;">
                     <p style="color: white;margin-top: 15%">Title goes here<br><span style="font-size: 10px;">Your tagline goes here</span></p>
                 </div>
-                <div class="col-5">
-                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
-                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a>
-                    <a href=""><img src="images/plus.svg" style="height: 20px;margin-top: 20%;margin-right: 7%"></a> 
+                <div class="col-md-5 col-sm-4">
+                    <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a>
+                    <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a>
+                    <a href=""><img src="images/plus.svg" style="height: 30px;margin-top: 20%;margin-right: 7%"></a> 
                 </div>
             </div>
         </div>
-        <div class="container" style="position: fixed;background-color: white;width: 30%;height: 80%;border-radius: 15px;right: 5%;top: 5%;">
+        <div class="container" style="position: fixed;background-color: white;width: 30%;border-radius: 15px;right: 5%;margin-top: 5%;">
             <div class="tab">
                 <h3 style="text-align: left;margin-top: 5%;margin-bottom: 5%;color: #6181f3">Edit Page</h3>
             </div>
-            <button id="b8" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;" data-target="#demo8">Button <i id="i8" class="arrow idown"></i></button>
+            <button id="b8" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;background-color: #ffffff;border: none;box-shadow: none;" data-target="#demo8">Button <i id="i8" class="arrow idown"></i></button>
             <div id="demo8" class="collapse">
                 <div class="dropdown">
-                    <button id="icon4" class="btn btn-light dropdown-toggle" style="width: 80%;margin-left: 10%;" type="button" data-toggle="dropdown">Select
-                    <span class="caret"></span></button>
+                    <button id="icon4" class="btn btn-light dropdown-toggle" style="width: 80%;margin-left: 10%;border: 1px solid lightgray;" type="button" data-toggle="dropdown">Select
+                    <span class="fa fa-caret-down" style="float: right;color: gray;"></span></button>
                     <ul style="width: 80%" class="dropdown-menu">
                         <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4none()">None</a></li>
                         <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4b1()">Button 1</a></li>
                     </ul>
                 </div>
             </div>
-            <button id="b9" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;" data-target="#demo9">Animation <i id="i9" class="arrow idown"></i></button>
+            <hr>
+            <button id="b9" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 100%;text-align: left;margin-top: 10%;background-color: #ffffff;border: none;box-shadow: none;" data-target="#demo9">Animation <i id="i9" class="arrow idown"></i></button>
             <div id="demo9" class="collapse">
-                <div class="row">
-                    <div class="col-4">
+                <div class="row" style="margin-top: 5%;">
+                    <div class="col-3">
                         <a href="#"><img onclick="showcircle()" src="images/Circle.svg"></a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-3">
                         <a href="#"><img onclick="showsqr()" src="images/Square.svg"></a>
                     </div>
-                    <div class="col-4" style="display: none;">
+                    <div class="col-6" style="display: none;">
                         <a href="#"><img onclick="showtr()" src="images/Triangle.svg"></a>
                     </div>    
                 </div>
 
                 <br>
                 <div class="row" id="circlerow" style="display: none;">
-                    <div class="col-6">
-                        <h6>Circle 1: </h6>
-                    </div>
-                    <div class="col-6">
-                        <a href="" onclick="deletecircle()">Delete</a>
+                    <div class="col">
+                        <h6 style="float: left;">Circle 1: </h6>
+                        <a href="" onclick="deletecircle()" style="float: right;">Delete</a>
                     </div>
                 </div>
-                <input id="circlecolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'setcirclecolor(this)'}" value="000000">
+                <input id="circlecolor" style="border-radius: 5px;width: 100%;margin-bottom: 3%;padding-left: 5%;padding-top: 2%;padding-bottom: 2%;display: none;" class="jscolor {onFineChange:'setcirclecolor(this)'}" value="000000">
                 <br>
                 <div class="row" id="sqrrow" style="display: none;">
-                    <div class="col-8">
-                        <h6>Square 1: </h6>
-                    </div>
-                    <div class="col-4">
-                        <a href="" onclick="deletesquare()">Delete</a>
+                    <div class="col">
+                        <h6 style="float: left;">Square 1: </h6>
+                        <a href="" onclick="deletesquare()" style="float: right;">Delete</a>
                     </div>
                 </div>
-                <input id="sqrcolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'setsqrcolor(this)'}" value="7D7FFF"> 
+                <input id="sqrcolor" style="border-radius: 5px;width: 100%;margin-bottom: 3%;padding-left: 5%;padding-top: 2%;padding-bottom: 2%;display: none;" class="jscolor {onFineChange:'setsqrcolor(this)'}" value="7D7FFF"> 
                 <br>
                 <div class="row" id="trirow" style="display: none;">
                     <div class="col-8">
@@ -205,15 +202,16 @@
                         <a href="" onclick="deletetr()">Delete</a>
                     </div>
                 </div>
-                <input id="tricolor" style="border-radius: 10px;width: 100%;margin-bottom: 3%;display: none;" class="jscolor {onFineChange:'settricolor(this)'}" value="7D7FFF">
+                <input id="tricolor" style="border-radius: 5px;width: 100%;margin-bottom: 3%;padding-left: 5%;padding-top: 2%;padding-bottom: 2%;display: none;" class="jscolor {onFineChange:'settricolor(this)'}" value="7D7FFF">
                 <input id="trisize" style="display: none;" type="text" onkeypress="abc3.style.fontSize = (this.value) + 'px';">                 
             </div>
-            <div style="text-align: center;margin-top: 1%;">
+            <hr>
+            <div style="text-align: center;margin-bottom: 3%;margin-top: 3%;">
                 <button type="submit" class="btn btn-primary" style="background-color: #7D7FFF">Save</button>
             </div>
         </div>
         <h5 style="margin-left: 9%;">Marketing Brochure</h5>
-        <img src="images/back.png" style="margin-left: 9%;margin-top: 1%;width: 50%">
+        <img id="mainimg" src="images/back.png" style="margin-left: 9%;margin-top: 1%;width: 50%">
         <img src="images/back.png" style="margin-left: 9%;margin-top: 5%;width: 50%">
 
     </div><!-- .container -->
