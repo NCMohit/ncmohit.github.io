@@ -26,6 +26,10 @@
     <script type="text/javascript" src="js/popup.js"></script>
     <script src="js/jscolor.js"></script>
     <script src='js/color-pick.js'></script>
+
+    <link rel="stylesheet" href="css/asIconPicker.min.css">
+    <script src="js/jquery-asIconPicker.min.js"></script>
+
 </head>
 <body style="background-color: #f5f7fb;font-family: Poppins" ng-app>
 <div class="alert-message"> </div>
@@ -214,9 +218,17 @@
                                 <button id="icon1" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 1%;border: 1px solid lightgray;margin-right: 1%;" type="button" data-toggle="dropdown">Select
                                 <span class="fa fa-caret-down" style="float: right;color: gray;"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1fb()"><p class='zmdi zmdi-facebook-box' style="float: left;color: black;margin-left: 5px;"></p>Facebook</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1em()"><p class='zmdi zmdi-email' style='float: left;color: black;margin-left: 5px;'></p>E-Mail</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
+                                    <div class="row">
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1fb()" data-toggle="tooltip" data-placement="right" title="Facebook"><p class='zmdi zmdi-facebook-box' style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1em()" data-toggle="tooltip" data-placement="right" title="E-Mail"><p class='zmdi zmdi-email' style='color: black;margin-left: 5px;'></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon1ws()" data-toggle="tooltip" data-placement="right" title="Whatsapp"><p class="zmdi zmdi-whatsapp" style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>                                        
+                                    </div>
                                 </ul>
                             </div>
                             <h6 style="margin-top: 0px;font-size: 12px;">Colour </h6>
@@ -234,9 +246,17 @@
                                 <button id="icon2" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 1%;border: 1px solid lightgray;" type="button" data-toggle="dropdown">Select
                                 <span class="fa fa-caret-down" style="float: right;color: gray;"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2fb()"><p class='zmdi zmdi-facebook-box' style='float: left;color: black;margin-left: 5px;'></p>Facebook</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2em()"><p class='zmdi zmdi-email' style='float: left;color: black;color: black;margin-left: 5px;'></p>E-Mail</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
+                                    <div class="row">
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2fb()" data-toggle="tooltip" data-placement="right" title="Facebook"><p class='zmdi zmdi-facebook-box' style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2em()" data-toggle="tooltip" data-placement="right" title="E-Mail"><p class='zmdi zmdi-email' style='color: black;margin-left: 5px;'></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon2ws()" data-toggle="tooltip" data-placement="right" title="Whatsapp"><p class="zmdi zmdi-whatsapp" style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>                                        
+                                    </div>
                                 </ul>
                             </div>
                             <h6 style="margin-top: 0px;font-size: 12px;">Colour </h6>
@@ -254,9 +274,17 @@
                                 <button id="icon3" class="btn btn-light dropdown-toggle" style="width: 100%;margin-top: 1%;border: 1px solid lightgray;" type="button" data-toggle="dropdown">Select
                                 <span class="fa fa-caret-down" style="float: right;color: gray;"></span></button>
                                 <ul style="width: 100%" class="dropdown-menu">
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3fb()"><p class='zmdi zmdi-facebook-box' style='float: left;color: black;color: black;margin-left: 5px;'></p>Facebook</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3em()"><p class='zmdi zmdi-email' style='float: left;color: black;margin-left: 5px;'></p>E-Mail</a></li>
-                                    <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3ws()"><p class="zmdi zmdi-whatsapp" style="float: left;color: black;margin-left: 5px;"></p>Whatsapp</a></li>
+                                    <div class="row">
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3fb()" data-toggle="tooltip" data-placement="right" title="Facebook"><p class='zmdi zmdi-facebook-box' style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3em()" data-toggle="tooltip" data-placement="right" title="E-Mail"><p class='zmdi zmdi-email' style='color: black;margin-left: 5px;'></p></a></li>
+                                        </div>
+                                        <div class="col">
+                                            <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon3ws()" data-toggle="tooltip" data-placement="right" title="Whatsapp"><p class="zmdi zmdi-whatsapp" style="color: black;margin-left: 5px;"></p></a></li>
+                                        </div>                                        
+                                    </div>
                                 </ul>
                             </div>
                             <h6 style="margin-top: 0px;font-size: 12px;">Colour </h6>
@@ -279,6 +307,13 @@
         <div class="fblogo"></div>
     </div><!-- .container -->
 </div><!-- .outer-container -->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger : 'hover'
+  });   
+});
+</script>
 <script type='text/javascript' src='js/tab.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
 </body>
