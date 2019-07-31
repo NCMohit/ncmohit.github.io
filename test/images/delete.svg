@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#2d2d2d}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#fff;stroke:#fff;stroke-width:.8px}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_146" d="M0 0h20v20H0z" class="cls-1" data-name="Rectangle 146" transform="translate(545 220)"/>
+        </clipPath>
+    </defs>
+    <g id="Delete" class="cls-2" transform="translate(-545 -220)">
+        <path id="Delete-2" d="M18.234 2.969h-4.57V.781A.781.781 0 0 0 12.883 0h-6.25a.781.781 0 0 0-.781.781v2.188H1.281a.781.781 0 0 0 0 1.563h1.446v14.687a.781.781 0 0 0 .781.781h12.5a.781.781 0 0 0 .781-.781V4.531h1.445a.781.781 0 0 0 0-1.562zM7.414 1.563H12.1v1.406H7.414zm7.812 16.875H4.289V4.531h10.938zm-6.77-9.719v5.531a.781.781 0 0 1-1.563 0V8.719a.781.781 0 0 1 1.563 0zm4.167 0v5.531a.781.781 0 0 1-1.562 0V8.719a.781.781 0 0 1 1.563 0zm0 0" class="cls-3" data-name="Delete" transform="translate(545.5 220)"/>
+    </g>
+</svg>
