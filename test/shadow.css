@@ -432,6 +432,12 @@ i {
     font-size: 14px;
     }
 }
+a:link {
+  color: #7D7FFF;
+}
+a:hover {
+  text-decoration: none;
+}
 #detailpic{
   height: 80%;
   border-radius: 15%;
