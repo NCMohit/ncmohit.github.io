@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.924" height="20" viewBox="0 0 17.924 20">
+    <defs>
+        <style>
+            .cls-1{fill:#7d7fff}
+        </style>
+    </defs>
+    <g id="Edit_Page_Icon" data-name="Edit Page Icon" transform="translate(-26.57)">
+        <g id="Group_30" data-name="Group 30" transform="translate(26.57)">
+            <g id="Group_29" data-name="Group 29">
+                <path id="Path_59" d="M116.1 200.784a.784.784 0 0 0-.784-.784h-8.076a.784.784 0 1 0 0 1.568h8.076a.784.784 0 0 0 .784-.784z" class="cls-1" data-name="Path 59" transform="translate(-103.351 -192.19)"/>
+                <path id="Path_60" d="M107.243 280a.784.784 0 0 0 0 1.568h4.9a.784.784 0 0 0 0-1.568z" class="cls-1" data-name="Path 60" transform="translate(-103.345 -269.066)"/>
+                <path id="Path_61" d="M32.305 18.437h-2.611a1.564 1.564 0 0 1-1.562-1.562V3.125a1.564 1.564 0 0 1 1.562-1.562h9.6a1.564 1.564 0 0 1 1.562 1.562v4.8a.781.781 0 1 0 1.562 0v-4.8A3.128 3.128 0 0 0 39.294 0h-9.6a3.128 3.128 0 0 0-3.124 3.125v13.75A3.128 3.128 0 0 0 29.694 20h2.612a.781.781 0 0 0 0-1.563z" class="cls-1" data-name="Path 61" transform="translate(-26.57)"/>
+                <path id="Path_62" d="M252.255 272.712a2.355 2.355 0 0 0-3.326 0l-4.3 4.3a.784.784 0 0 0-.2.327l-.937 3.086a.784.784 0 0 0 .96.983l3.165-.877a.784.784 0 0 0 .345-.2l4.3-4.288a2.355 2.355 0 0 0-.007-3.331zM247 279.071l-1.592.441.466-1.534 2.9-2.9 1.109 1.109zm4.149-4.141l-.152.152-1.109-1.109.151-.151a.784.784 0 0 1 1.109 1.108z" class="cls-1" data-name="Path 62" transform="translate(-235.019 -261.432)"/>
+                <path id="Path_63" d="M115.319 120h-8.076a.784.784 0 0 0 0 1.568h8.076a.784.784 0 0 0 0-1.568z" class="cls-1" data-name="Path 63" transform="translate(-103.351 -115.314)"/>
+            </g>
+        </g>
+    </g>
+</svg>
