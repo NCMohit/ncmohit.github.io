@@ -1,3 +1,4 @@
+
 .btn-default {
   position: relative;
   display: flex;
@@ -182,6 +183,7 @@
   margin-bottom: 5%;
   border: none;
   background-color: #ffffff;
+  box-shadow: none;
 }
 #colorbox{
   background-color: #7D7FFF;
@@ -195,7 +197,7 @@
 }
 hr {
   margin-top: 1%;
-  margin-bottom: 1px;
+  margin-bottom: 1%;
 }
 i {
   border: solid #373737;
@@ -231,6 +233,18 @@ i {
   filter: blur(7px);
   transform: translateX(-15px) rotate(20deg);
   animation: shine 3s infinite linear;
+}
+.upperdetail{
+  z-index: 99;
+  font-family: Poppins;
+  padding-top: 1%;
+  padding-left: 1%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 8%;
 }
 .fa-facebook {
   background: white;
