@@ -1,4 +1,3 @@
-
 .btn-default {
   position: relative;
   display: flex;
@@ -303,6 +302,42 @@ i {
    -webkit-animation-fill-mode: both;
    animation-fill-mode: both;
    animation-iteration-count: infinite;
+}
+#demo5 ul {
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 0px;
+}
+#demo5 .col {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#demo6 ul {
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 0px;
+}
+#demo6 .col {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#demo7 ul {
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 0px;
+}
+#demo7 .col {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .multiple_emails-input::-moz-placeholder{
     color:#999;
