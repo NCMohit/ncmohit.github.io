@@ -236,7 +236,7 @@ i {
 .upperdetail{
   z-index: 99;
   font-family: Poppins;
-  padding-top: 1%;
+  padding-top: 1.4%;
   padding-left: 1%;
   position: fixed;
   top: 0px;
@@ -245,6 +245,7 @@ i {
   color: white;
   height: 8%;
 }
+
 .fa-facebook {
   background: white;
   color: blue;
