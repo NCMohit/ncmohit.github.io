@@ -236,14 +236,15 @@ i {
 .upperdetail{
   z-index: 99;
   font-family: Poppins;
-  padding-top: 1.4%;
+  padding-top: 18px;
+  padding-bottom: 18px;
   padding-left: 1%;
   position: fixed;
   top: 0px;
   width: 100%;
   background-color: black;
   color: white;
-  height: 8%;
+  height: auto;
 }
 
 .fa-facebook {
