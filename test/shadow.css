@@ -184,6 +184,9 @@
   background-color: #ffffff;
   box-shadow: none;
 }
+.tabcontent button:hover{
+  background-color: #ffffff;
+}
 #colorbox{
   background-color: #7D7FFF;
 }
