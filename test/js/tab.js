@@ -92,6 +92,22 @@ function setboxcolor(picker) {
   document.getElementById("colorbox").style.backgroundColor = '#' + picker.toString();
   document.getElementById("colorbox2").style.backgroundColor = '#' + picker.toString();
 }
+function deletecircle(){
+  document.getElementById("dragcircle").style.display = 'none';
+  document.getElementById("circlerow").style.display = 'none';
+  document.getElementById("circlecolor").style.display = 'none';  
+}
+function deletesquare(){
+  document.getElementById("dragsqr").style.display = 'none';
+  document.getElementById("sqrrow").style.display = 'none';
+  document.getElementById("sqrcolor").style.display = 'none';
+}
+function deletetr(){
+  document.getElementById("dragtri").style.display = 'none';
+  document.getElementById("trirow").style.display = 'none';
+  document.getElementById("tricolor").style.display = 'none';
+  document.getElementById("trisize").style.display = 'none';
+}
 document.getElementById("defaultopen").click();
 document.getElementById("b1").click();
 document.getElementById("b5").click();
