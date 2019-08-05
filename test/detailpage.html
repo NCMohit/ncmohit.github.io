@@ -164,7 +164,7 @@
         </div>
         <div class="container" style="position: fixed;background-color: white;width: 30%;border-radius: 15px;right: 5%;margin-top: 5%;">
             <div class="tab" style="margin-top: 3%;width: 80%;margin-left: 10%;border-bottom: none;">
-                <h3 style="text-align: left;margin-top: 5%;margin-bottom: 5%;color: #7D7FFF;padding-right: 0px;"><img src="images/editpage.svg" style="margin-right: 1%;width: 15px;">Edit Page<span style="float: right;color: black;font-size: 14px;"><span class="fa fa-caret-left"></span> 1 / 5 <span class="fa fa-caret-right"></span></span></h3>
+                <h6 style="text-align: left;margin-top: 5%;margin-bottom: 5%;color: #7D7FFF;padding-right: 0px;font-size: 17px;">Edit Page<span style="float: right;color: black;font-size: 14px;"><span class="fa fa-caret-left"></span> 1 / 5 <span class="fa fa-caret-right"></span></span></h6>
             </div>
             <hr>
             <button id="b8" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 80%;text-align: left;margin-top: 3%;margin-left: 10%;padding-left: 0px;background-color: #ffffff;border: none;box-shadow: none;padding-right: 0px;" data-target="#demo8">Button <i id="i8" class="arrow idown"></i></button>
@@ -172,15 +172,15 @@
                 <div class="dropdown">
                     <button id="icon4" class="btn btn-light dropdown-toggle" style="width: 100%;border: 1px solid lightgray;background-color: white;" type="button" data-toggle="dropdown">Select
                     <span class="fa fa-caret-down" style="float: right;color: gray;"></span></button>
-                    <ul style="width: 100%" class="dropdown-menu">
-                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4none()" style="color: black;">None</a></li>
-                        <li style="width: 100%;margin-top: 5%;text-align: center;"><a href="#" onclick="addicon4b1()" style="color: black;">Button 1</a></li>
-                    </ul>
+                    <div style="width: 100%;padding-top: 0px;padding-bottom: 0px;" class="dropdown-menu">
+                        <a href="#" class="list-group-item list-group-item-action" style="border-top: none;"><p onclick="addicon4none()" style="color: black;">None</p></a>
+                        <a href="#" class="list-group-item list-group-item-action" style="border-bottom: none;"><p onclick="addicon4b1()" style="color: black;">Button 1</p></a>
+                    </div>
                 </div>
             </div>
             <hr style="margin-top: 3%;">
             <button id="b9" type="button" class="btn btn-light" data-toggle="collapse" style="text-align: center;width: 80%;text-align: left;margin-left: 10%;padding-left: 0px;margin-top: 3%;background-color: #ffffff;border: none;box-shadow: none;padding-right: 0px;" data-target="#demo9">Animation <i id="i9" class="arrow idown"></i></button>
-            <div id="demo9" class="collapse" style="width: 80%;margin-left: 10%;overflow-y: auto;overflow-x: hidden;">
+            <div id="demo9" class="collapse" style="width: 80%;margin-left: 10%;">
                 <div class="row" style="margin-top: 5%;">
                     <div class="col-4">
                         <a href="#"><img onclick="showcircle()" style="width: 5vw;" src="images/Circle.svg"></a>
@@ -221,7 +221,7 @@
             </div>
             <hr style="margin-top: 3%;">
             <div style="text-align: center;margin-bottom: 3%;margin-top: 3%;">
-                <button type="submit" class="btn btn-primary" style="background-color: #7D7FFF">Save</button>
+                <button id="specialsubmit" type="submit" class="btn btn-primary" style="background-color: #7D7FFF;">Save</button>
             </div>
         </div>
         <h5 style="margin-left: 9%;">Marketing Brochure</h5>
