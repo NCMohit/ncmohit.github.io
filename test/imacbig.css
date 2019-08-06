@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px) {
+	.tab h6{
+		font-size: 17px;
+	}
+	#demo9 .col h6{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.tab h6{
+		font-size: 25px;
+	}
+	#b8{
+		font-size: 20px;
+	}
+	#demo8 .button{
+		font-size: 20px;
+	}
+	#demo8 p{
+		font-size: 20px;
+	}
+	#demo9 .col h6{
+		font-size: 18px;
+	}
+}
