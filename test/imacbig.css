@@ -12,6 +12,10 @@
 	.site-header h6{
 		font-size: 12px;
 	}
+	.mainimg{
+		margin-left: 9%;
+		width: 50%;
+	}
 }
 @media screen and (min-width: 1400px) {
 	.tab h6{
@@ -36,10 +40,11 @@
 		width: 45px;
 		height: 49px;
 	}
-	.site-header h6{
-		font-size: 17px;
-	}
 	.site-header img{
 		width: 20px;
+	}
+	.mainimg{
+		margin-left: 3%;
+		width: 80%;
 	}
 }
