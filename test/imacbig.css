@@ -5,13 +5,6 @@
 	#demo9 .col h6{
 		font-size: 12px;
 	}
-	.site-branding h1{
-		width: 40px;
-		height: 44px;
-	}
-	.site-header h6{
-		font-size: 12px;
-	}
 	.mainimg{
 		margin-left: 9%;
 		width: 50%;
@@ -36,12 +29,8 @@
 	#demo9 .col h6{
 		font-size: 18px;
 	}
-	.site-branding h1{
-		width: 45px;
-		height: 49px;
-	}
-	.site-header img{
-		width: 20px;
+	#demo9 .col a{
+		font-size: 18px;
 	}
 	.mainimg{
 		margin-left: 0%;
