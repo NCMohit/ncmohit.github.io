@@ -26,12 +26,14 @@
 .maincontent-login {
 	position: absolute;
 	top: 31.6%;
-	left: 12%;
+	width: 80%;
+	margin: 0 10%;
 }
 .maincontent-signup {
 	position: absolute;
 	top: 31.6%;
-	left: 12%;
+	width: 80%;
+	margin: 0 10%;
 }
 .maincontent-login .rowe #img2 {
 	position: absolute;
