@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login / Signup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img src="images/logo_ct.svg" style="position: absolute;top: 7%;left: 7%;">
+		<img src="images/login.svg" class="img-responsive" style="position: absolute;top: 16%;left: 7%;" width="width: 52%" height="66%">
+		<div class="leftbox">
+			<div id="loginsignup">
+				<div id="login">
+					<a href="#" onclick="changepanel('signin')"><h6 id="signinh">Sign In</h6></a>
+				</div>
+				<div id="signup">
+					<a href="#" onclick="changepanel('signup')"><h6 id="signuph">Sign Up</h6></a>
+				</div>
+			</div>
+			<div id="maincontent-login" class="maincontent-login">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/emaillogin.svg"></span>
+					</div>
+					<input type="text" class="form-control" placeholder="Email">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/passlogin.svg"></span>
+					</div>
+					<input type="password" class="form-control" placeholder="Password">
+				</div>
+				<div class="row">
+					<div class="col">
+						<label class="checkbox-inline"><input type="checkbox" value="">Remember me</label>
+					</div>
+					<div class="col">
+						 <span><a href="#"><h6>Forgot Password?</h6></a></span>
+					</div>
+				</div>
+				<br>
+				<button type="submit" class="btn">Login</button>
+			</div>
+			<div id="maincontent-signup" class="maincontent-signup">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/loginname.svg"></span>
+					</div>
+					<input type="text" class="form-control" placeholder="Name">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/emaillogin.svg"></span>
+					</div>
+					<input type="text" class="form-control" placeholder="Email">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/passlogin.svg"></span>
+					</div>
+					<input type="password" class="form-control" placeholder="Password">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><img src="images/passlogin.svg"></span>
+					</div>
+					<input type="password" class="form-control" placeholder="Confirm Password">
+				</div>
+				<button type="submit" class="btn">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
