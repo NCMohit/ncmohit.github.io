@@ -1,0 +1,80 @@
+.leftbox {
+	z-index: 10;
+	position: absolute;
+	right: 7%;
+	top: 23.9%;
+	width: 25.8%;
+	height: 55%;
+	border-radius: 19px;
+	box-shadow: 0 0 20px 0 rgba(132, 132, 132, 0.1);
+	background-color: #ffffff;
+}
+#login h6 {
+	color: #7D7FFF;
+	position: absolute;
+	top: 13%;
+	left: 31.4%;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #7D7FFF;
+}
+#signup h6{
+	color: #969DAC;
+	position: absolute;
+	top: 13%;
+	right: 31.4%; 
+}
+.maincontent-login {
+	position: absolute;
+	top: 31.6%;
+	left: 12%;
+}
+.maincontent-signup {
+	position: absolute;
+	top: 31.6%;
+	left: 12%;
+}
+.maincontent-login .rowe #img2 {
+	position: absolute;
+	top: 38%;
+}
+.maincontent-login button{
+	background-color: #7D7FFF;
+	color: white;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	position: relative;
+  	left: 40%;
+}
+.maincontent-signup button{
+	background-color: #7D7FFF;
+	color: white;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	position: relative;
+  	left: 40%;
+}
+.maincontent-login span{
+	float: right;
+}
+.maincontent-login span h6{
+	position: absolute;
+	color: black;
+	font-size: 12px;
+	float: right;
+	right: 10%;
+	margin-top: 5%;
+}
+.maincontent-login label{
+	font-size: 12px;
+}
+.maincontent-signup {
+	display: none;
+	position: absolute;
+	top: 30%;
+}
+.input-group-text {
+	background-color: #ffffff;
+	border-right: none;
+}
