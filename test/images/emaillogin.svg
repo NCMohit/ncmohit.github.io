@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.551" height="12.679" viewBox="0 0 16.551 12.679">
+    <defs>
+        <style>
+            .cls-1{fill:#7d7fff;stroke:#7d7fff;stroke-width:.3px}
+        </style>
+    </defs>
+    <g id="Email_Icon" data-name="Email Icon" transform="translate(.15 -60.85)">
+        <g id="Group_88" data-name="Group 88" transform="translate(0 61)">
+            <path id="Path_268" d="M14.822 61H1.428A1.431 1.431 0 0 0 0 62.428v9.522a1.431 1.431 0 0 0 1.428 1.428h13.394a1.431 1.431 0 0 0 1.428-1.428v-9.522A1.431 1.431 0 0 0 14.822 61zm-.2.952l-6.467 6.469-6.525-6.469zM.952 71.753v-9.132l4.586 4.546zm.673.673l4.588-4.588 1.608 1.594a.476.476 0 0 0 .672 0l1.568-1.568 4.564 4.564zm13.675-.673l-4.564-4.564 4.564-4.564z" class="cls-1" data-name="Path 268" transform="translate(0 -61)"/>
+        </g>
+    </g>
+</svg>
