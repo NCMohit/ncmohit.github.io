@@ -94,7 +94,9 @@
 	.leftbox{
 		width: 80%;
 		margin: 80% 5%;
-
+	}
+	#bigpic{
+		width: 80%;
 	}
 }
 @media screen and (max-width: 1200px){
