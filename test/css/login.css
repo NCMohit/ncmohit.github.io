@@ -1,9 +1,5 @@
 .leftbox {
-	z-index: 10;
-	position: absolute;
-	right: 7%;
-	top: 23.9%;
-	width: 25.8%;
+	position: absolute;	
 	height: 55%;
 	border-radius: 19px;
 	box-shadow: 0 0 20px 0 rgba(132, 132, 132, 0.1);
@@ -57,6 +53,12 @@
   	position: relative;
   	left: 40%;
 }
+.maincontent-login button:hover{
+	color: white;
+}
+.maincontent-signup button:hover{
+	color: white;
+}
 .maincontent-login span{
 	float: right;
 }
@@ -79,4 +81,19 @@
 .input-group-text {
 	background-color: #ffffff;
 	border-right: none;
+}
+@media screen and (min-width: 992px){
+	.leftbox{
+		z-index: 10;
+		right: 7%;
+		top: 23.9%;
+		width: 25.8%;
+	}
+}
+@media screen and (max-width: 992px){
+	.leftbox{
+		width: 80%;
+		margin: 80% 5%;
+
+	}
 }
